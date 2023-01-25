@@ -1,0 +1,22 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+
+  transform: rotate(-90deg);
+
+  position: fixed;
+  top: 360px;
+  left: -110px;
+}
+
+.social img {
+  transform: rotate(90deg);
+}
+
+.social-divider {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}

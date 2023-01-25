@@ -1,0 +1,80 @@
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+
+  left: -100%;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: all 0.6s;
+}
+
+.menu.active {
+  left: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-block {
+  position: relative;
+  height: 100vh;
+  background-color: #ffa501;
+  width: 345px;
+
+  padding-top: 140px;
+  padding-left: 60px;
+
+  transition: all 0.6s;
+
+  z-index: 10;
+}
+
+.menu-list {
+  list-style-type: circle;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.menu-link {
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.menu-link a {
+  color: rgb(255, 255, 255);
+}
+
+.menu-close {
+  position: absolute;
+  top: 24px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.menu-social {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+  height: 20px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu-social img {
+  transform: rotate(90deg);
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.75;
+}

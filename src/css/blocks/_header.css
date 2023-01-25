@@ -1,0 +1,74 @@
+.header {
+  min-height: 100vh;
+  background: url("../../images/bg/Background.jpg") center center/cover
+    no-repeat;
+  padding-top: 205px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.header-text {
+  position: relative;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+
+  z-index: 2;
+}
+
+.header-text::before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  background: #ffa501;
+  border-radius: 100%;
+  top: -7px;
+  left: -13.2px;
+  z-index: -1;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  width: 248px;
+}
+
+.header-link {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 21px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  cursor: pointer;
+}
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #151812;
+}
+
+.hamburger .hamburger-long {
+  width: 36px;
+}
