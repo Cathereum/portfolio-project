@@ -6,6 +6,7 @@
 @import url("blocks/_about.css");
 @import url("blocks/_experience.css");
 @import url("blocks/_percentage.css");
+@import url("blocks/_portfolio.css");
 
 * {
   box-sizing: border-box;
