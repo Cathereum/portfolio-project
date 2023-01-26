@@ -3,6 +3,7 @@
 @import url("blocks/_header.css");
 @import url("blocks/_social.css");
 @import url("blocks/_menu.css");
+@import url("blocks/_about.css");
 
 * {
   box-sizing: border-box;
