@@ -7,6 +7,7 @@
 @import url("blocks/_experience.css");
 @import url("blocks/_percentage.css");
 @import url("blocks/_portfolio.css");
+@import url("blocks/_contacts.css");
 
 * {
   box-sizing: border-box;
@@ -23,7 +24,8 @@
 .btn {
   padding: 12px 25px 12px 25px;
   background: #ffa501;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
 }
 
 a:active,
