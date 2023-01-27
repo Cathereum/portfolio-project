@@ -10,16 +10,16 @@
 </head>
 
 <body>
-    <aside class="social">
+    <!-- <aside class="social">
         <div class="social-text">Социальные сети</div>
         <div class="social-divider"></div>
         <a href="#" class="social-links"><img src="images/social/Facebook.svg" alt="facebook"></a>
         <a href="#" class="social-links"><img src="images/social/Instagram.svg" alt="instagram"></a>
         <a href="#" class="social-links"><img src="images/social/Github.svg" alt="github"></a>
-    </aside>
+    </aside> -->
 
 
-    <div class="menu">
+    <!-- <div class="menu">
         <div class="menu-block">
             <div class="menu-close"><img src="images/icons/Close.svg" alt="close"></div>
             <nav>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="menu-overlay"></div>
-    </div>
+    </div> -->
 
     <section class="header">
         <div class="hamburger">
@@ -60,12 +60,12 @@
     <section class="about">
         <div class="container">
             <div class="about-wrapper">
-                <img src="images/img/Photo.jpg" alt="my-photo">
+                <img class="about-photo" src="images/img/Photo.jpg" alt="my-photo">
                 <div class="about-content">
                     <h3 class="about-content__title">Про меня</h3>
                     <h2>Меня зовут Александра</h2>
                     <div class="about-divider"></div>
-                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
                     <div class="about-skills__wrapper">
                         <div class="about-skills__item">
                             <div class="about-skills-img">
@@ -102,7 +102,7 @@
         </div>
     </section>
 
-    <section class="experience">
+    <!-- <section class="experience">
         <div class="container">
             <div class="experience-header">
                 <h2 class="experience-title">Опыт</h2>
@@ -164,9 +164,9 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
-    <section class="percentage">
+    <!-- <section class="percentage">
         <div class="container">
             <div class="percentage-wrapper">
                 <div class="percentage-item">
@@ -213,9 +213,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="portfolio">
+    <!-- <section class="portfolio">
         <div class="container">
             <div class="portfolio-header">
                 <h2 class="portfolio-title">Портфолио</h2>
@@ -231,9 +231,9 @@
                 <a href="" class="portfolio-item horizontal"><img src="images/img/mac.jpg" alt="mac"></a>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="contacts">
+    <!-- <section class="contacts">
         <div class="container">
             <div class="contacts-wrapper">
                 <img src="images/img/Photo.png" alt="photo">
@@ -252,11 +252,11 @@
                     <form action="#" class="contacts-form">
                         <div class="form-personal">
                             <div class="form-input">
-                                <input name="name" id="name" type="text">
+                                <input required name="name" id="name" type="text">
                                 <label for="name">Ваше имя</label>
                             </div>
                             <div class="form-input">
-                                <input name="email" id="email" type="email">
+                                <input required name="email" id="email" type="email">
                                 <label for="email">Ваша почта</label>
                             </div>
                         </div>
@@ -266,14 +266,17 @@
                             <textarea name="text" id="text"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
+                        <div class="form-footer">
+                            <button class="btn">Отправить сообщение</button>
+                            <input required type="checkbox">
+                            <h3>Я согласен(а) с <a href="#">политикой конфиденциальности</a></h3>
 
-                        <button class="btn">Отправить сообщение</button>
-
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <script src="js/index.js"></script>
 </body>

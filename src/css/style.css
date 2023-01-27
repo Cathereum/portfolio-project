@@ -8,6 +8,7 @@
 @import url("blocks/_percentage.css");
 @import url("blocks/_portfolio.css");
 @import url("blocks/_contacts.css");
+@import url("blocks/_media.css");
 
 * {
   box-sizing: border-box;

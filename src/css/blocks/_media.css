@@ -1,0 +1,96 @@
+@media (max-width: 1324px) {
+  .social {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+  .header {
+    padding-bottom: 20px;
+  }
+
+  .about {
+    padding-top: 90px;
+  }
+  .about-wrapper {
+    gap: 55px;
+  }
+
+  .about-photo {
+    width: 60%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 548px;
+  }
+
+  .header-title {
+    font-size: 30px;
+    line-height: 43px;
+  }
+
+  .about {
+    padding-top: 70px;
+  }
+
+  .about-wrapper {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .header {
+    background: url("../../images/mobile/Background.png") center center/cover
+      no-repeat;
+  }
+
+  .header-buttons {
+    margin-top: 32px;
+  }
+
+  .menu-block {
+    width: 250px;
+    padding-left: 40px;
+  }
+
+  .about-wrapper {
+    flex-direction: column;
+  }
+
+  .about-photo {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .about-skills__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-text {
+    max-width: 380px;
+  }
+}

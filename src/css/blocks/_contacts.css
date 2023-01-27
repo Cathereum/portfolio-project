@@ -66,7 +66,6 @@
 }
 
 .contacts-form .btn {
-  margin-top: 28px;
   font-weight: 700;
   font-size: 14px;
   color: #000000;
@@ -123,4 +122,31 @@
   top: -9px;
   left: 12px;
   background-color: white;
+}
+
+.form-footer {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-footer h3 {
+  margin-top: 0;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+}
+
+.form-footer input {
+  margin-left: 35px;
+}
+
+.form-footer a {
+  color: blue;
+}
+
+.form-footer a:hover {
+  color: blue;
 }
